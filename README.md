@@ -1,2 +1,1 @@
-# trabdevdejogo
- trabalho da disciplina de desenvolvimento de jogo
+# volta ao mundo um trabalho de desenvolvimento da disciplina de desenvolvimento de jogos
