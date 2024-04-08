@@ -1,4 +1,5 @@
 body{
+    margin: 16px;
     background-image: url(terra.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,15 +11,16 @@ body{
 }
 
 #text{
-    color: red;
+    color: white;
     background: radial-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%); 
     background-size: cover;
-    text-align: center;
-    font-size: 12pt;
+    text-align: left;
+    font-size: 18pt;
     width: 410px;
-    margin-top: 0,5rem;
-    margin-bottom: 1rem;
+    margin-top: 1px;
+    margin-bottom: 1px;
     border: solid 2px;
+    padding: 1rem;
 }
 
 .title-container {
@@ -26,9 +28,11 @@ body{
     background-size: cover;
     text-align: center;
     font-size: 12pt;
-    width: 410px;
+    width: 380px;
     margin-top: 0,5rem;
     margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     border: solid 2px;
 
 }
