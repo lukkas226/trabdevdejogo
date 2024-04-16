@@ -38,20 +38,21 @@ body{
 }
 
 .letter-yellow {
-    color: #c79c2e;
+    color: yellow;
 }
 
 .letter-green {
-    color: #51b36e;
+    color: rgb(14, 241, 14);
 }
 .letter-red {
-    color: #943e3c;
+    color: red;
 }
 
 .app-container {
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 10px;
+    max-width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,8 +67,8 @@ body{
 }
 
 .tile-column {
-    background-color: #f4f3f1;
-    color: #252525;
+    background-color: white;
+    color: black;
     height: 40px;
     width: 48px;
     border-radius: 0.25rem;
@@ -79,26 +80,26 @@ body{
 }
 
 .typing {
-    border: 3px solid #252525;
+    border: 3px solid black;
 }
 
 .disabled {
-    border: 1px solid #252525;
+    border: 1px solid black;
 }
 
 .right {
-    background-color: #51b36e;
-    color: #f4f3f1;
+    background-color: green;
+    color: white;
 }
 
 .wrong {
-    background-color: #943e3c;
-    color: #f4f3f1;
+    background-color: red;
+    color: white;
 }
 
 .displaced {
-    background-color: #c79c2e;
-    color: #f4f3f1;
+    background-color: rgba(255, 255, 0, 0.752);
+    color: white;
 }
 
 .keyboard-container {
@@ -124,7 +125,30 @@ body{
     height: 40px;
     border-radius: 0.25rem;
     margin-right: 0.25rem;
-    border: 1px solid #252525;
+    border: 1px solid black;
     font-size: 16px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1020px){
+    /* classes gerais */
+    
+    .container{
+        flex-wrap: wrap;
+        gap: 40px;    
+    }
+
+    .jogo{
+        width: 100%;
+    }
+
+    .title-container{
+        border: none;
+        background: none;
+        font-size: 20px;
+    }
+
+    .keybord-container{
+        width: 300%;
+    }
+}    
