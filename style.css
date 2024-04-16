@@ -363,4 +363,8 @@ footer .line-footer p a{
         line-height: 36px;
         text-align: center;
     }
+
+    footer .contato{
+        margin-bottom: 60px;
+    }
 }
